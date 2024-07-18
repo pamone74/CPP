@@ -1,27 +1,31 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   HumanA.hpp                                         :+:      :+:    :+:   */
+/*   Dog.hpp                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: pamone <pamone@student.42abudhabi.ae>      +#+  +:+       +#+        */
+/*   By: aboulhaj <aboulhaj@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/07/13 22:32:27 by pamone            #+#    #+#             */
-/*   Updated: 2024/07/13 22:57:13 by pamone           ###   ########.fr       */
+/*   Created: 2022/10/16 21:56:40 by aboulhaj          #+#    #+#             */
+/*   Updated: 2022/11/06 23:06:06 by aboulhaj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef HUMANA_HPP
-#define HUMANA_HPP
+#ifndef DOG_HPP
+#define DOG_HPP
 
-#include "Weapon.hpp"
+#include "Animal.hpp"
 
-class HumanA
+class Dog: public Animal
 {
-    std::string name;
-    Weapon &weapon;
-
+    private:
+        Brain *_brain;
     public:
-    HumanA(std::string name, Weapon &weapon);
-    void attack(void);
+        Dog(void);
+        Dog(Dog const &dog);
+        Dog &operator=(Dog const &dog);
+        ~Dog(void);
+
+        virtual void makeSound(void) const;
 };
+
 #endif

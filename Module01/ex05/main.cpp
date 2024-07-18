@@ -1,20 +1,25 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   HumanA.cpp                                         :+:      :+:    :+:   */
+/*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: pamone <pamone@student.42abudhabi.ae>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/07/13 22:34:04 by pamone            #+#    #+#             */
-/*   Updated: 2024/07/13 22:45:31 by pamone           ###   ########.fr       */
+/*   Created: 2024/07/15 12:18:06 by pamone            #+#    #+#             */
+/*   Updated: 2024/07/15 12:18:07 by pamone           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "HumanA.hpp"
-void HumanA:: attack(void)
-{
-    std::cout << name << " attacks with their " << weapon.getType() << std::endl;
-}
-HumanA::HumanA(std::string name, Weapon &weapon) : name(name), weapon(weapon)
-{
+#include "Harl.hpp"
+
+int main() {
+    Harl harl;
+    
+    harl.complain("DEBUG");
+    harl.complain("INFO");
+    harl.complain("WARNING");
+    harl.complain("ERROR");
+    harl.complain("UNKNOWN"); // This should print "Unknown level"
+    
+    return 0;
 }

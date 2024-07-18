@@ -1,20 +1,27 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   HumanA.cpp                                         :+:      :+:    :+:   */
+/*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: pamone <pamone@student.42abudhabi.ae>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/07/13 22:34:04 by pamone            #+#    #+#             */
-/*   Updated: 2024/07/13 22:45:31 by pamone           ###   ########.fr       */
+/*   Created: 2024/07/16 11:02:48 by pamone            #+#    #+#             */
+/*   Updated: 2024/07/16 11:02:51 by pamone           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "HumanA.hpp"
-void HumanA:: attack(void)
+#include "Fixed.hpp"
+
+int main(void)
 {
-    std::cout << name << " attacks with their " << weapon.getType() << std::endl;
-}
-HumanA::HumanA(std::string name, Weapon &weapon) : name(name), weapon(weapon)
-{
+    Fixed a;
+    Fixed const b( Fixed( 5.05f ) * Fixed( 2 ) );
+    std::cout << a << std::endl;
+    std::cout << ++a << std::endl;
+    std::cout << a << std::endl;
+    std::cout << a++ << std::endl;
+    std::cout << a << std::endl;
+    std::cout << b << std::endl;
+    std::cout << Fixed::max( a, b ) << std::endl;
+    return 0;
 }
