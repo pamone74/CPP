@@ -6,13 +6,12 @@
 /*   By: pamone <pamone@student.42abudhabi.ae>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/18 11:54:47 by pamone            #+#    #+#             */
-/*   Updated: 2024/07/18 12:09:17 by pamone           ###   ########.fr       */
+/*   Updated: 2024/07/22 09:45:21 by pamone           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef CLAPTRAP_HPP
 #define CLAPTRAP_HPP
-
 #include <iostream>
 
 class ClapTrap
@@ -20,18 +19,20 @@ class ClapTrap
     std::string _name;
     int _hit_points;
     int _energy_points;
-    int _attack_point;
+    int _attack_damage;
 
     public:
-        ClapTrap();
-        ~ClapTrap();
+        ClapTrap(); // Default constructor
+        ~ClapTrap(); // Destructor
         ClapTrap(std::string name);
-        ClapTrap &operator=(ClapTrap const &claptrap);
+        ClapTrap(const ClapTrap &claptrap); // copy constructor
+        ClapTrap &operator=(ClapTrap const &claptrap); // copy asignment operator
         void attack(const std::string& target);
-        void takeDamge(unsigned int amount);
+        void takeDamage(unsigned int amount);
         void beRepaired(unsigned int amount);
-        void setDamage()
-    
+        void setDamage(int damage);
+        std::string getName(void)const;
+        void getInfo(void) const;
 };
 
 #endif

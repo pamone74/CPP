@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu Jul 18 17:14:27 2024
+# Make data base, printed on Sat Jul 27 04:40:14 2024
 
 # Variables
 
@@ -59,7 +59,7 @@ RUBY_HOME = /usr/local/rvm/rubies/default
 # environment
 MAVEN_HOME = /usr/local/sdkman/candidates/maven/current
 # environment
-GITHUB_TOKEN = ghu_hc4kSEK5dRnvYWOnxEORCAZa51UeRf1MOEU5
+GITHUB_TOKEN = ghu_xnTsDXClLjGPJ6RPsx90zQZTVHca2c3CGK2q
 # makefile
 MAKEFILE_LIST := 
 # environment
@@ -75,6 +75,7 @@ LESSOPEN = | /usr/bin/lesspipe %s
 # environment
 VSCODE_CWD = /vscode/bin/linux-x64/f1e16e1e6214d7c44d078b1f0607b2388f29d729
 # environment
+ 
 NVS_ROOT = /usr/local/nvs
 # environment
 DOTNET_SKIP_FIRST_TIME_EXPERIENCE = 1
@@ -113,7 +114,7 @@ NUGET_XMLDOC_MODE = skip
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-ca9e8909-bd70-46c1-97ad-537cd52af681.sock
+VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-49ba89d3-d24e-454e-936c-07f792bcb77e.sock
 # environment
 DOTNET_RUNNING_IN_CONTAINER = true
 # default
@@ -160,6 +161,7 @@ VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 HOME = /home/codespace
 # environment
 LESSCLOSE = /usr/bin/lesspipe %s %s
+ 
 # environment
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # environment
@@ -174,8 +176,6 @@ PYTHONIOENCODING = UTF-8
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # automatic
 ^D = $(patsubst %/,%,$(dir $^))
-# environment
-__NEXT_PRIVATE_RUNTIME_TYPE = 
 # environment
 HOSTNAME = codespaces-41a46c
 # environment
@@ -193,21 +193,17 @@ MAKECMDGOALS := all
 # environment
 IRBRC = /usr/local/rvm/rubies/ruby-3.2.4/.irbrc
 # environment
-NEXT_DEPLOYMENT_ID = 
-# environment
 SHLVL = 1
 # environment
 RUBY_ROOT = /home/codespace/.ruby
 # environment
 MAVEN_ROOT = /home/codespace/.maven
 # environment
-__NEXT_OPTIMIZE_FONTS = true
-# environment
 JAVA_HOME = /usr/local/sdkman/candidates/java/current
 # default
 MAKE_VERSION := 4.2.1
 # environment
-GITHUB_CODESPACE_TOKEN = BBQ6U52VGIVXTVUYVK6V6NDGTH24DANCNFSM4AIQS7GA
+GITHUB_CODESPACE_TOKEN = BBQ6U532CO75NPMLTXRFHTDGUURM3ANCNFSM4AIQS7GA
 # environment
 USER = codespace
 # environment
@@ -292,6 +288,7 @@ SUFFIXES :=
 rvm_loaded_flag = 1
 # default
 .RECIPEPREFIX := 
+ 
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
 # environment
@@ -303,7 +300,7 @@ ContainerVersion = 13
 # environment
 MY_RUBY_HOME = /usr/local/rvm/rubies/ruby-3.2.4
 # variable set hash-table stats:
-# Load=145/1024=14%, Rehash=0, Collisions=15/167=9%
+# Load=142/1024=14%, Rehash=0, Collisions=15/164=9%
 
 # Pattern-specific Variable Values
 
@@ -311,9 +308,9 @@ MY_RUBY_HOME = /usr/local/rvm/rubies/ruby-3.2.4
 
 # Directories
 
-# . (device 1795, inode 1572874): 10 files, no impossibilities.
+# . (device 1795, inode 1572874): 9 files, no impossibilities.
 
-# 10 files, no impossibilities in 1 directories.
+# 9 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -363,12 +360,12 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 18 / storage = 153 B / avg = 8 B
-# current buf: size = 8162 B / used = 153 B / count = 18 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 17 / storage = 148 B / avg = 8 B
+# current buf: size = 8162 B / used = 148 B / count = 17 / avg = 8 B
 
-# strcache performance: lookups = 21 / hit rate = 14%
+# strcache performance: lookups = 20 / hit rate = 15%
 # hash-table stats:
-# Load=18/8192=0%, Rehash=0, Collisions=1/21=5%
-# Finished Make data base on Thu Jul 18 17:14:27 2024
+# Load=17/8192=0%, Rehash=0, Collisions=1/20=5%
+# Finished Make data base on Sat Jul 27 04:40:14 2024
 
  
