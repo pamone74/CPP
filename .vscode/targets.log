@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Jul 27 04:40:14 2024
+# Make data base, printed on Sat Jul 27 05:15:14 2024
 
 # Variables
 
@@ -59,7 +59,7 @@ RUBY_HOME = /usr/local/rvm/rubies/default
 # environment
 MAVEN_HOME = /usr/local/sdkman/candidates/maven/current
 # environment
-GITHUB_TOKEN = ghu_xnTsDXClLjGPJ6RPsx90zQZTVHca2c3CGK2q
+GITHUB_TOKEN = ghu_EoxxWBzpHVAaNNq2hPglp6qU4kteLN3G5q03
 # makefile
 MAKEFILE_LIST := 
 # environment
@@ -75,7 +75,6 @@ LESSOPEN = | /usr/bin/lesspipe %s
 # environment
 VSCODE_CWD = /vscode/bin/linux-x64/f1e16e1e6214d7c44d078b1f0607b2388f29d729
 # environment
- 
 NVS_ROOT = /usr/local/nvs
 # environment
 DOTNET_SKIP_FIRST_TIME_EXPERIENCE = 1
@@ -91,8 +90,6 @@ CLOUDENV_ENVIRONMENT_ID = 8ba11ed9-9d68-47c4-b6fc-996ca405fcdd
 rvm_stored_umask = 0022
 # environment
 GITHUB_SERVER_URL = https://github.com
-# environment
-NODE_ENV = production
 # environment
 PIPX_BIN_DIR = /usr/local/py-utils/bin
 # environment
@@ -114,7 +111,7 @@ NUGET_XMLDOC_MODE = skip
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-49ba89d3-d24e-454e-936c-07f792bcb77e.sock
+VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-861c4716-40c3-4bba-a447-7bbb1f2a655d.sock
 # environment
 DOTNET_RUNNING_IN_CONTAINER = true
 # default
@@ -127,8 +124,6 @@ CODESPACE_NAME = cautious-capybara-jj5474r44wv7f564p
 LS_COLORS = 
 # automatic
 %F = $(notdir $%)
-# environment
-rvm_version = 1.29.12 (latest)
 # environment
 NVS_DIR = /usr/local/nvs
 # environment
@@ -161,7 +156,6 @@ VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 HOME = /home/codespace
 # environment
 LESSCLOSE = /usr/bin/lesspipe %s %s
- 
 # environment
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # environment
@@ -203,7 +197,7 @@ JAVA_HOME = /usr/local/sdkman/candidates/java/current
 # default
 MAKE_VERSION := 4.2.1
 # environment
-GITHUB_CODESPACE_TOKEN = BBQ6U532CO75NPMLTXRFHTDGUURM3ANCNFSM4AIQS7GA
+GITHUB_CODESPACE_TOKEN = BBQ6U5ZMCFCQLPJ4ZSW3J33GUUVQJANCNFSM4AIQS7GA
 # environment
 USER = codespace
 # environment
@@ -215,11 +209,11 @@ SHELL_LOGGED_IN = true
 # environment
 GOROOT = /usr/local/go
 # environment
-__NEXT_PRIVATE_STANDALONE_CONFIG = {"env":{},"webpack":null,"eslint":{"ignoreDuringBuilds":false},"typescript":{"ignoreBuildErrors":false,"tsconfigPath":"tsconfig.json"},"distDir":"./.next","cleanDistDir":true,"assetPrefix":"","configOrigin":"next.config.js","useFileSystemPublicRoutes":true,"generateEtags":true,"pageExtensions":["tsx","ts","jsx","js"],"poweredByHeader":true,"compress":true,"analyticsId":"","images":{"deviceSizes":[640,750,828,1080,1200,1920,2048,3840],"imageSizes":[16,32,48,64,96,128,256,384],"path":"/_next/image","loader":"default","loaderFile":"","domains":[],"disableStaticImages":false,"minimumCacheTTL":60,"formats":["image/webp"],"dangerouslyAllowSVG":false,"contentSecurityPolicy":"script-src 'none'; frame-src 'none'; sandbox;","contentDispositionType":"inline","remotePatterns":[],"unoptimized":false},"devIndicators":{"buildActivity":true,"buildActivityPosition":"bottom-right"},"onDemandEntries":{"maxInactiveAge":60000,"pagesBufferLength":5},"amp":{"canonicalBase":""},"basePath":"","sassOptions":{},"trailingSlash":false,"i18n":null,"productionBrowserSourceMaps":false,"optimizeFonts":true,"excludeDefaultMomentLocales":true,"serverRuntimeConfig":{},"publicRuntimeConfig":{},"reactProductionProfiling":false,"reactStrictMode":null,"httpAgentOptions":{"keepAlive":true},"outputFileTracing":true,"staticPageGenerationTimeout":60,"swcMinify":true,"output":"standalone","modularizeImports":{"@mui/icons-material":{"transform":"@mui/icons-material/{{member}}"},"date-fns":{"transform":"date-fns/{{member}}"},"lodash":{"transform":"lodash/{{member}}"},"lodash-es":{"transform":"lodash-es/{{member}}"},"ramda":{"transform":"ramda/es/{{member}}"},"react-bootstrap":{"transform":{"useAccordionButton":"modularize-import-loader?name=useAccordionButton&from=named&as=default!react-bootstrap/AccordionButton","*":"react-bootstrap/{{member}}"}},"antd":{"transform":"antd/lib/{{kebabCase member}}"},"ahooks":{"transform":{"createUpdateEffect":"modularize-import-loader?name=createUpdateEffect&from=named&as=default!ahooks/es/createUpdateEffect","*":"ahooks/es/{{member}}"}},"@ant-design/icons":{"transform":{"IconProvider":"modularize-import-loader?name=IconProvider&from=named&as=default!@ant-design/icons","createFromIconfontCN":"@ant-design/icons/es/components/IconFont","getTwoToneColor":"modularize-import-loader?name=getTwoToneColor&from=named&as=default!@ant-design/icons/es/components/twoTonePrimaryColor","setTwoToneColor":"modularize-import-loader?name=setTwoToneColor&from=named&as=default!@ant-design/icons/es/components/twoTonePrimaryColor","*":"@ant-design/icons/lib/icons/{{member}}"}},"next/server":{"transform":"next/dist/server/web/exports/{{ kebabCase member }}"}},"experimental":{"serverMinification":true,"serverSourceMaps":false,"caseSensitiveRoutes":false,"useDeploymentId":false,"useDeploymentIdServerActions":false,"clientRouterFilter":true,"clientRouterFilterRedirects":false,"fetchCacheKeyPrefix":"","middlewarePrefetch":"flexible","optimisticClientCache":true,"manualClientBasePath":false,"cpus":9,"memoryBasedWorkersCount":false,"isrFlushToDisk":true,"workerThreads":false,"optimizeCss":false,"nextScriptWorkers":false,"scrollRestoration":false,"externalDir":false,"disableOptimizedLoading":false,"gzipSize":true,"craCompat":false,"esmExternals":true,"isrMemoryCacheSize":52428800,"fullySpecified":false,"outputFileTracingRoot":"/Users/maol/WebstormProjects/Trabajo/codegpt-nextjs","swcTraceProfiling":false,"forceSwcTransforms":false,"largePageDataBytes":128000,"adjustFontFallbacks":false,"adjustFontFallbacksWithSizeAdjust":false,"typedRoutes":false,"instrumentationHook":false,"bundlePagesExternals":false,"optimizePackageImports":["lucide-react","@headlessui/react","@headlessui-float/react","@heroicons/react/20/solid","@heroicons/react/24/solid","@heroicons/react/24/outline","@visx/visx","@tremor/react","rxjs","@mui/material","@mui/icons-material","recharts","react-use","@material-ui/core","@material-ui/icons","@tabler/icons-react","mui-core","react-icons/ai","react-icons/bi","react-icons/bs","react-icons/cg","react-icons/ci","react-icons/di","react-icons/fa","react-icons/fa6","react-icons/fc","react-icons/fi","react-icons/gi","react-icons/go","react-icons/gr","react-icons/hi","react-icons/hi2","react-icons/im","react-icons/io","react-icons/io5","react-icons/lia","react-icons/lib","react-icons/lu","react-icons/md","react-icons/pi","react-icons/ri","react-icons/rx","react-icons/si","react-icons/sl","react-icons/tb","react-icons/tfi","react-icons/ti","react-icons/vsc","react-icons/wi"],"trustHostHeader":false,"isExperimentalCompile":false},"configFileName":"next.config.js"}
+rvm_version = 1.29.12 (latest)
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
-# environment
-PORT = 54112
+# default
+MAKE_COMMAND := make
 # environment
 OLDPWD = /
 # default
@@ -252,8 +246,6 @@ PHP_ROOT = /home/codespace/.php
 NVS_HOME = /usr/local/nvs
 # environment
 VSCODE_HANDLES_SIGPIPE = true
-# default
-MAKE_COMMAND := make
 # environment
 DEBIAN_FLAVOR = focal-scm
 # environment
@@ -266,8 +258,6 @@ MAKEFILES :=
 SDKMAN_CANDIDATES_DIR = /usr/local/sdkman/candidates
 # environment
 GITHUB_API_URL = https://api.github.com
-# environment
-__NEXT_PRIVATE_ORIGIN = http://codespaces-41a46c:54112
 # environment
 PWD = /workspaces/CPP
 # environment
@@ -300,7 +290,7 @@ ContainerVersion = 13
 # environment
 MY_RUBY_HOME = /usr/local/rvm/rubies/ruby-3.2.4
 # variable set hash-table stats:
-# Load=142/1024=14%, Rehash=0, Collisions=15/164=9%
+# Load=138/1024=13%, Rehash=0, Collisions=13/160=8%
 
 # Pattern-specific Variable Values
 
@@ -366,6 +356,6 @@ GNUmakefile:
 # strcache performance: lookups = 20 / hit rate = 15%
 # hash-table stats:
 # Load=17/8192=0%, Rehash=0, Collisions=1/20=5%
-# Finished Make data base on Sat Jul 27 04:40:14 2024
+# Finished Make data base on Sat Jul 27 05:15:14 2024
 
  
