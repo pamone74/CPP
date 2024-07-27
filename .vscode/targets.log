@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Jul 27 05:15:14 2024
+# Make data base, printed on Sat Jul 27 05:18:49 2024
 
 # Variables
 
@@ -111,7 +111,7 @@ NUGET_XMLDOC_MODE = skip
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-861c4716-40c3-4bba-a447-7bbb1f2a655d.sock
+VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-009840b5-fbbf-4333-8a2e-bc105361526c.sock
 # environment
 DOTNET_RUNNING_IN_CONTAINER = true
 # default
@@ -141,6 +141,7 @@ ORYX_SDK_STORAGE_BASE_URL = https://oryx-cdn.microsoft.io
 # environment
 DOTNET_ROOT = /usr/share/dotnet
 # default
+ 
 .LOADED := 
 # environment
 GEM_HOME = /usr/local/rvm/gems/ruby-3.2.4
@@ -278,7 +279,6 @@ SUFFIXES :=
 rvm_loaded_flag = 1
 # default
 .RECIPEPREFIX := 
- 
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
 # environment
@@ -290,6 +290,7 @@ ContainerVersion = 13
 # environment
 MY_RUBY_HOME = /usr/local/rvm/rubies/ruby-3.2.4
 # variable set hash-table stats:
+ 
 # Load=138/1024=13%, Rehash=0, Collisions=13/160=8%
 
 # Pattern-specific Variable Values
@@ -356,6 +357,6 @@ GNUmakefile:
 # strcache performance: lookups = 20 / hit rate = 15%
 # hash-table stats:
 # Load=17/8192=0%, Rehash=0, Collisions=1/20=5%
-# Finished Make data base on Sat Jul 27 05:15:14 2024
+# Finished Make data base on Sat Jul 27 05:18:49 2024
 
  
