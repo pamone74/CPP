@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sun Sep  1 15:18:34 2024
+# Make data base, printed on Tue Sep 24 00:49:27 2024
 
 # Variables
 
@@ -59,7 +59,7 @@ RUBY_HOME = /usr/local/rvm/rubies/default
 # environment
 MAVEN_HOME = /usr/local/sdkman/candidates/maven/current
 # environment
-GITHUB_TOKEN = ghu_ewtNOywHcyIVN7TGf5QFxCPl3IWIKo3LIiFa
+GITHUB_TOKEN = ghu_MZGCd69NztkK5i85EjGbY7LI1djM933GESDM
 # makefile
 MAKEFILE_LIST := 
 # environment
@@ -97,6 +97,7 @@ PIPX_HOME = /usr/local/py-utils
 # environment
 SDKMAN_DIR = /usr/local/sdkman
 # environment
+ 
 SDKMAN_CANDIDATES_API = https://api.sdkman.io/2
 # environment
 GOPATH = /go
@@ -111,7 +112,7 @@ NUGET_XMLDOC_MODE = skip
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-d1a0b042-ae03-4791-b970-0a513ee06322.sock
+VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-57ab40cd-ffec-4f24-a19c-d6b42d220f61.sock
 # environment
 DOTNET_RUNNING_IN_CONTAINER = true
 # default
@@ -194,10 +195,11 @@ RUBY_ROOT = /home/codespace/.ruby
 MAVEN_ROOT = /home/codespace/.maven
 # environment
 JAVA_HOME = /usr/local/sdkman/candidates/java/current
+ 
 # default
 MAKE_VERSION := 4.2.1
 # environment
-GITHUB_CODESPACE_TOKEN = BBQ6U54PFCORSZATFT5BAMTG2UXHBANCNFSM4AIQS7GA
+GITHUB_CODESPACE_TOKEN = BBQ6U5647BVX5MHWOS6O4SLG6K2TFANCNFSM4AIQS7GA
 # environment
 USER = codespace
 # environment
@@ -261,6 +263,7 @@ GITHUB_API_URL = https://api.github.com
 # environment
 PWD = /workspaces/CPP
 # environment
+ 
 LC_ALL = C
 # environment
 INTERNAL_VSCS_TARGET_URL = https://centralindia.online.visualstudio.com
@@ -277,7 +280,6 @@ SUFFIXES :=
 # environment
 rvm_loaded_flag = 1
 # default
- 
 .RECIPEPREFIX := 
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
@@ -298,9 +300,9 @@ MY_RUBY_HOME = /usr/local/rvm/rubies/ruby-3.2.4
 
 # Directories
 
-# . (device 1796, inode 1572874): 12 files, no impossibilities.
+# . (device 1795, inode 136526): 15 files, no impossibilities.
 
-# 12 files, no impossibilities in 1 directories.
+# 15 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -350,12 +352,13 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 20 / storage = 176 B / avg = 8 B
-# current buf: size = 8162 B / used = 176 B / count = 20 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 23 / storage = 195 B / avg = 8 B
+# current buf: size = 8162 B / used = 195 B / count = 23 / avg = 8 B
 
-# strcache performance: lookups = 23 / hit rate = 13%
+# strcache performance: lookups = 26 / hit rate = 11%
 # hash-table stats:
-# Load=20/8192=0%, Rehash=0, Collisions=1/23=4%
-# Finished Make data base on Sun Sep  1 15:18:34 2024
+ 
+# Load=23/8192=0%, Rehash=0, Collisions=1/26=4%
+# Finished Make data base on Tue Sep 24 00:49:27 2024
 
  
