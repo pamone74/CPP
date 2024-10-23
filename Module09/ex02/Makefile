@@ -5,26 +5,23 @@
 #                                                     +:+ +:+         +:+      #
 #    By: pamone <pamone@student.42abudhabi.ae>      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2024/09/18 03:55:02 by pamone            #+#    #+#              #
-#    Updated: 2024/09/24 01:51:32 by pamone           ###   ########.fr        #
+#    Created: 2024/10/21 10:59:47 by pamone            #+#    #+#              #
+#    Updated: 2024/10/21 11:45:15 by pamone           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = mutantstack
+NAME = PmergeMe
+CC = 	c++ -std=c++98
+CCFAG = -Wall -Wextra -Werror
 
-cc = C++
-CPPFLAG = -Wall -Wextra -Werror -std=c++98
-
-SRC = main.cpp 
-
+SRC = main.cpp PmergeMe.cpp
 all: $(NAME)
 
-$(NAME) : $(SRC)
-	$(CC) $(CPPFLAG) $(SRC) -o $(NAME)
+$(NAME):$(SRC)
+	$(CC) $(CCFAG) $(SRC) -o $(NAME)
 
-clean: 
+clean:
 	rm -rf $(NAME)
 fclean: clean
-
-re: fclean all
-.PHONY: all re clean fclean
+re : fclean all
+.PHONY: all fclean re clean 
